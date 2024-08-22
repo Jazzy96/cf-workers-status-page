@@ -60,7 +60,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-    - id: www-zheyu-ink
+  - id: www-zheyu-ink
     name: www.zheyu.ink
     description: 'Blog'
     url: 'https://www.zheyu.ink/' # URL to fetch
