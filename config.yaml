@@ -34,7 +34,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: claude-zheyu-ink
-    name: api.zheyu.ink
+    name: claude.zheyu.ink
     description: 'A intermediary claude site.'
     url: 'https://claude.zheyu.ink/' # URL to fetch
     method: GET # default=GET
@@ -43,7 +43,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: count-zheyu-one
-    name: api.zheyu.ink
+    name: count.zheyu.one
     description: 'Some proxies url'
     url: 'https://count.zheyu.one/' # URL to fetch
     method: GET # default=GET
