@@ -86,6 +86,15 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
+
+  - id: topo-zheyu-ink
+    name: topo.zheyu.ink
+    description: 'A Mesh Topology Generation Algorithm Demo'
+    url: 'https://topo.zheyu.ink/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
     
   - id: www-zheyu-ink
     name: www.zheyu.ink
