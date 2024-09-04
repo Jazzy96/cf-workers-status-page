@@ -33,6 +33,15 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: lobe-zheyu-ink
+    name: lobe.zheyu.ink
+    description: 'Lobe Chat website'
+    url: 'https://lobe.zheyu.ink/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
   - id: claude-zheyu-ink
     name: claude.zheyu.ink
     description: 'A intermediary claude site.'
