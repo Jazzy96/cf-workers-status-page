@@ -113,3 +113,12 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
+
+  - id: vnt-zheyu-ink
+    name: vnt.zheyu.ink
+    description: 'vnt relay server management web'
+    url: 'https://vnt.zheyu.ink/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
