@@ -51,6 +51,15 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: word-zheyu-one
+    name: word.zheyu.ink
+    description: '汉语新解'
+    url: 'https://word.zheyu.ink'
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
   - id: count-zheyu-one
     name: count.zheyu.one
     description: 'Some proxies url'
@@ -67,15 +76,6 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
-    
-  - id: over-zheyu-one
-    name: over.zheyu.ink
-    description: 'Override for VS-Code'
-    url: 'https://over.zheyu.ink/static' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
   - id: texas-zheyu-ink
@@ -121,4 +121,13 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: over-zheyu-one
+    name: over.zheyu.ink
+    description: 'Override for VS-Code'
+    url: 'https://over.zheyu.ink/static' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
