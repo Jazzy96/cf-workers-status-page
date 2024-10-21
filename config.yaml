@@ -87,15 +87,6 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: vite-zheyu-ink
-    name: vite.zheyu.ink
-    description: 'A Vitepress site'
-    url: 'https://vite.zheyu.ink/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
-
   - id: topo-zheyu-ink
     name: topo.zheyu.ink
     description: 'A Mesh Topology Generation Algorithm Demo'
