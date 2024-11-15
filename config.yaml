@@ -105,11 +105,3 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: over-zheyu-one
-    name: over.zheyu.ink
-    description: 'Override for VS-Code'
-    url: 'https://over.zheyu.ink/static' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
