@@ -24,6 +24,15 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: open-zheyu-ink
+    name: open.zheyu.ink
+    description: 'A Open-WebUI site.'
+    url: 'https://open.zheyu.ink/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
   - id: chat-zheyu-ink
     name: chat.zheyu.ink
     description: 'A NextChat site.'
@@ -58,6 +67,15 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: count-zheyu-ink
+    name: count.zheyu.ink
+    description: 'Some proxies url'
+    url: 'https://count.zheyu.ink/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
   - id: alist-zheyu-ink
@@ -100,6 +118,15 @@ monitors:
     name: vnt.zheyu.ink
     description: 'vnt relay server management web'
     url: 'https://vnt.zheyu.ink/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: search-zheyu-ink
+    name: search.zheyu.ink
+    description: 'Searxng search engine'
+    url: 'https://search.zheyu.ink/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
