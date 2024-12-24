@@ -141,3 +141,11 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: qyb-zheyu-ink
+    name: qyb.zheyu.ink
+    description: '家庭货币'
+    url: 'https://qyb.zheyu.ink/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
